@@ -1,152 +1,229 @@
-body{
-    background-color: hsl(204, 43%, 93%);
-}
-
-.container{
-    width: 650px;
-    height: 500px;
-    margin: 100px auto;
-    background-color: white;
-    border-radius: 15px;
-}
-
-.container .join-community{
-    
-    background-color: white;
-    padding-left: 30px;
-
-
-}
-
-.container .join-community h3{
-    font-size:25px ;
-    margin: 0px;
-    height: 50%;
-    padding: 10px;
-    
-    color: hsl(179, 62%, 43%);
-    padding-top:40px;
-}
-
-.container .join-community h3,h4,p{
-    padding: 10px;
-    
-}
-
-.container .join-community h4{
-    color: hsl(71, 73%, 54%);
-    font-size: 20px;
-    
-}
-
-.container .join-community h4{
-    margin:5px;
-    
-
-}
-
-.container .join-community p{
-    font-size: 18px;
-    padding-left: 14px;
-    margin-bottom: 15px;
-    margin-top: 10px;
-    color: hsla(203, 23%, 27%, 0.527);
-}
-
-*{
-    box-sizing: border-box;
-}
-
-.bottom-div{
-    display: flex;
-    margin-left: -30px;
-    
-}
-
-.left-div{
-    width: 50%;
-    margin-left: 30px;
-    background-color: hsl(179, 62%, 43%);
-    height: 272px;
-    margin-top: -2px;
-    
-}
-
-.left-div h3{
-    margin-left: 30px;
-
-
-}
-.right-div{
-    width: 50%;
-}
-
-/* sign up button */
-.left-div button{
-    display: block;
-    background-color: hsl(71, 73%, 54%);
-    width: 250px;
-    height: 50px;
-    border-radius: 10px;
-    border:0px;
-    margin-left: 30px;
-}
-.left-div button a{
-    text-decoration: none;
-    color: white;
-    border: 1px solid hsl(71,73%,54%);
-    
-}
-
-.left-div h4{
-    font-size: 40px;
-    margin-left: 30px;
-    display: inline;
-    margin-top: 20px
-}
-
-.left-div p{
-    margin-left: 30px;
-}
-
-.left-div .per-month{
-    display: inline;
-     margin: 0px;
-     position: relative;
-     right: 10px;
-    bottom: 10px;
-    color:hsl(204, 43%, 93%);
-}
-
-.left-div .full-access
+@media screen and (min-width:900px)
 {
-    margin-left: 1px;
+    body{
+        background-color: hsl(204, 43%, 93%);
+    }
+    
+    .container{
+        width: 650px;
+        height: 500px;
+        margin: 100px auto;
+        background-color: white;
+        border-radius: 15px;
+    }
+    
+    .container .join-community{
+        
+        background-color: white;
+        padding-left: 30px;
+    
+    
+    }
+    
+    .container .join-community h3{
+        font-size:25px ;
+        margin: 0px;
+        height: 50%;
+        padding: 10px;
+        
+        color: hsl(179, 62%, 43%);
+        padding-top:40px;
+    }
+    
+    .container .join-community h3,h4,p{
+        padding: 10px;
+        
+    }
+    
+    .container .join-community h4{
+        color: hsl(71, 73%, 54%);
+        font-size: 20px;
+        
+    }
+    
+    .container .join-community h4{
+        margin:5px;
+        
+    
+    }
+    
+    .container .join-community p{
+        font-size: 18px;
+        padding-left: 14px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        color: hsla(203, 23%, 27%, 0.527);
+    }
+    
+    *{
+        box-sizing: border-box;
+    }
+    
+    .bottom-div{
+        display: flex;
+        margin-left: -30px;
+        
+    }
+    
+    .left-div{
+        width: 50%;
+        margin-left: 30px;
+        background-color: hsl(179, 62%, 43%);
+        height: 272px;
+        margin-top: -2px;
+        
+    }
+    
+    .left-div h3{
+        margin-left: 30px;
+    
+    
+    }
+    .right-div{
+        width: 50%;
+    }
+    
+    /* sign up button */
+    .left-div button{
+        display: block;
+        background-color: hsl(71, 73%, 54%);
+        width: 250px;
+        height: 50px;
+        border-radius: 10px;
+        border:0px;
+        margin-left: 30px;
+    }
+    .left-div button a{
+        text-decoration: none;
+        color: white;
+        border: 1px solid hsl(71,73%,54%);
+        
+    }
+    
+    .left-div h4{
+        font-size: 40px;
+        margin-left: 30px;
+        display: inline;
+        margin-top: 20px
+    }
+    
+    .left-div p{
+        margin-left: 30px;
+    }
+    
+    .left-div .per-month{
+        display: inline;
+         margin: 0px;
+         position: relative;
+         right: 10px;
+        bottom: 10px;
+        color:hsl(204, 43%, 93%);
+    }
+    
+    .left-div .full-access
+    {
+        margin-left: 1px;
+    }
+    /* //monthly subscription */
+    .left-div h3{
+        padding-left:10px ;
+        padding-top: 5px;
+    }
+    
+    .right-div{
+        background-color: hsla(179, 62%, 43%, 0.705);
+        margin-top: -2px;
+        height: 272px;
+    }
+    
+    
+    .right-div h3{
+        color: white;
+    
+    }
+    .right-div p{
+        color:hsl(204, 43%, 93%);
+    }
+    .right-div h3,p{
+        padding-left: 30px;
+    }
+    
+    
 }
-/* //monthly subscription */
-.left-div h3{
-    padding-left:10px ;
-    padding-top: 5px;
-}
-
-.right-div{
-    background-color: hsla(179, 62%, 43%, 0.705);
-    margin-top: -2px;
-    height: 272px;
-}
-
-
-.right-div h3{
-    color: white;
-
-}
-.right-div p{
-    color:hsl(204, 43%, 93%);
-}
-.right-div h3,p{
-    padding-left: 30px;
-}
-
-
 *{
     font-family: 'Karla', sans-serif;
+}
+
+@media screen and (max-width:800px){
+    body{
+        box-sizing: border-box;
+    }
+    .join-community{
+        width: 80vw;
+
+        padding: 5px;
+    }
+    .join-community h3{
+        color: hsl(179, 62%, 43%);
+        margin: 0px;        
+    }
+    .join-community h4{
+        color: hsl(71, 73%, 54%)
+    }
+
+    .left-div{
+        background-color:hsl(179, 62%, 43%);
+        padding: 5px 10px;
+        
+    }
+    .left-div h4{
+        font-size: 2em;
+
+        display: inline-block;
+        margin: 0px;
+        margin-right: 30px;
+      
+    }
+    .left-div p.per-month{
+        display: inline-block;
+        position: relative;
+        bottom: 5px;
+        color: white;
+    }
+
+    .left-div button a{
+        color: white;
+        font-size: 20px;
+    }
+    
+    .left-div button{
+        width: 15em;
+        margin-bottom: 0px;
+        height: auto;
+        background-color: hsl(71, 73%, 54%);
+        border: hsl(71, 73%, 54%);
+        border-radius: 10px;
+        padding: 5px;
+    }
+    .right-div{
+        background-color: hsla(179, 62%, 43%, 0.705);
+        margin-bottom: 50px;
+    }
+    .right-div h3{
+        margin: 0px;
+        padding-left: 12px;
+        padding-top: 20px;
+        
+    }
+    .right-div p{
+        color: white;
+        padding-left:11px ;
+        padding-bottom: 25px;
+        
+        
+    }
+    .left-div,.right-div{
+        margin-top: 10px;
+        border-radius: 10px;
+    }
 }
